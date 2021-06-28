@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-base-randu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Uniformly distributed pseudorandom numbers between 0 and 1.",
   "license": "Apache-2.0",
   "author": {
