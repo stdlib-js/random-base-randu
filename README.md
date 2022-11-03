@@ -31,13 +31,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@v0.0.8-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@v0.0.8-deno/mod.js';
 ```
 
 #### randu()
@@ -281,7 +281,7 @@ var o = randu.toJSON();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@v0.0.8-deno/mod.js';
 
 var seed;
 var rand;
