@@ -24,30 +24,20 @@ limitations under the License.
 
 > Uniformly distributed pseudorandom numbers between 0 and 1.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/random-base-randu
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 ```
 
 #### randu()
@@ -290,8 +280,13 @@ var o = randu.toJSON();
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 
 var seed;
 var rand;
@@ -318,6 +313,10 @@ rand = randu.factory({
 for ( i = 0; i < 100; i++ ) {
     console.log( rand() );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -348,7 +347,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -408,17 +407,17 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/random-base-randu/main/LICENSE
 
-[@stdlib/random/base/mt19937]: https://github.com/stdlib-js/random-base-mt19937
+[@stdlib/random/base/mt19937]: https://github.com/stdlib-js/random-base-mt19937/tree/esm
 
-[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd
+[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd/tree/esm
 
-[@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle
+[@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle/tree/esm
 
 <!-- <related-links> -->
 
-[@stdlib/random/base/discrete-uniform]: https://github.com/stdlib-js/random-base-discrete-uniform
+[@stdlib/random/base/discrete-uniform]: https://github.com/stdlib-js/random-base-discrete-uniform/tree/esm
 
-[@stdlib/random/base/randn]: https://github.com/stdlib-js/random-base-randn
+[@stdlib/random/base/randn]: https://github.com/stdlib-js/random-base-randn/tree/esm
 
 <!-- </related-links> -->
 
