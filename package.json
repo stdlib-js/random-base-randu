@@ -43,7 +43,7 @@
     "@stdlib/assert-has-own-property": "^0.2.0",
     "@stdlib/assert-is-boolean": "^0.2.0",
     "@stdlib/assert-is-plain-object": "^0.2.0",
-    "@stdlib/random-base": "^0.1.1",
+    "@stdlib/random-base": "^0.2.0",
     "@stdlib/random-base-minstd": "^0.2.0",
     "@stdlib/random-base-minstd-shuffle": "^0.2.0",
     "@stdlib/random-base-mt19937": "^0.2.0",

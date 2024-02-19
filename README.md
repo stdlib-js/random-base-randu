@@ -345,6 +345,9 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
+-   <span class="package-name">[`@stdlib/random-array/randu`][@stdlib/random/array/randu]</span><span class="delimiter">: </span><span class="description">create an array containing uniformly distributed pseudorandom numbers between 0 and 1.</span>
+-   <span class="package-name">[`@stdlib/random-iter/randu`][@stdlib/random/iter/randu]</span><span class="delimiter">: </span><span class="description">create an iterator for generating uniformly distributed pseudorandom numbers between 0 and 1.</span>
+-   <span class="package-name">[`@stdlib/random-streams/randu`][@stdlib/random/streams/randu]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating uniformly distributed pseudorandom numbers between 0 and 1.</span>
 -   <span class="package-name">[`@stdlib/random-base/discrete-uniform`][@stdlib/random/base/discrete-uniform]</span><span class="delimiter">: </span><span class="description">discrete uniform distributed pseudorandom numbers.</span>
 -   <span class="package-name">[`@stdlib/random-base/randn`][@stdlib/random/base/randn]</span><span class="delimiter">: </span><span class="description">standard normal pseudorandom numbers.</span>
 
@@ -391,8 +394,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/random-base-randu.svg
 [npm-url]: https://npmjs.org/package/@stdlib/random-base-randu
 
-[test-image]: https://github.com/stdlib-js/random-base-randu/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/random-base-randu/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/random-base-randu/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/random-base-randu/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-base-randu/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-base-randu?branch=main
@@ -431,6 +434,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle
 
 <!-- <related-links> -->
+
+[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu
+
+[@stdlib/random/iter/randu]: https://github.com/stdlib-js/random-iter-randu
+
+[@stdlib/random/streams/randu]: https://github.com/stdlib-js/random-streams-randu
 
 [@stdlib/random/base/discrete-uniform]: https://github.com/stdlib-js/random-base-discrete-uniform
 
